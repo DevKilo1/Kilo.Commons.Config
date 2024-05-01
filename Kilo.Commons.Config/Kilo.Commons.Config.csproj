@@ -33,12 +33,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Config.cs">
-        <Link>Config.cs</Link>
-      </Compile>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Example.cs">
-        <Link>Example.cs</Link>
-      </Compile>
       <Compile Remove="Utils.cs" />
     </ItemGroup>
 
