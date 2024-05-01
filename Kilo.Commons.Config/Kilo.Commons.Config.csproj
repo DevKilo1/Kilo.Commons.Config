@@ -39,6 +39,9 @@
       <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Config.cs">
         <Link>PublicC#\Config.cs</Link>
       </Compile>
+      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Example.cs">
+        <Link>PublicC#\Example.cs</Link>
+      </Compile>
       <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Functions.cs">
         <Link>PublicC#\Functions.cs</Link>
       </Compile>
