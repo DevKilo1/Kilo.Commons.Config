@@ -152,7 +152,7 @@
         "net452"
       ],
       "sources": {
-        "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\bin\\Debug\\Kilo.Commons.Config.net.1.0.0.nupkg": {},
+        "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\bin\\Debug\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
