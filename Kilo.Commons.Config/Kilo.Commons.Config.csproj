@@ -18,9 +18,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Kilo.Commons.csproj">
-        <Link>PublicC#\Kilo.Commons.csproj</Link>
-      </Content>
       <Content Include="..\..\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\fxmanifest.lua">
         <Link>Resource\Kilo.Commons\fxmanifest.lua</Link>
       </Content>
@@ -30,27 +27,6 @@
       <Content Include="..\..\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\server.lua">
         <Link>Resource\Kilo.Commons\server.lua</Link>
       </Content>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\AddonType.cs">
-        <Link>PublicC#\AddonType.cs</Link>
-      </Compile>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Config.cs">
-        <Link>PublicC#\Config.cs</Link>
-      </Compile>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Example.cs">
-        <Link>PublicC#\Example.cs</Link>
-      </Compile>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Functions.cs">
-        <Link>PublicC#\Functions.cs</Link>
-      </Compile>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\KVPType.cs">
-        <Link>PublicC#\KVPType.cs</Link>
-      </Compile>
-      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Menu.cs">
-        <Link>PublicC#\Menu.cs</Link>
-      </Compile>
     </ItemGroup>
 
 </Project>
