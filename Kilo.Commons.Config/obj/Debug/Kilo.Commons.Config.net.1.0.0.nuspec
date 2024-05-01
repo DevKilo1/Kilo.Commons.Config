@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Kilo.Commons.Config.net</id>
+    <version>1.0.0</version>
+    <authors>DevKilo</authors>
+    <description>Package Description</description>
+    <tags>FivePD Config Newtonsoft.Json DevKilo</tags>
+    <repository type="git" commit="1f8eadbc4ed17b13899b2a1ce65cf41c28fbea6c" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="FivePD.net" version="1.3.0" exclude="Build,Analyzers" />
+        <dependency id="MenuAPI.FiveM" version="3.2.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net452/fxmanifest.lua" buildAction="Content" />
+      <files include="any/net452/index.js" buildAction="Content" />
+      <files include="any/net452/server.lua" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Debug\net452\Kilo.Commons.Config.net.dll" target="lib\net452\Kilo.Commons.Config.net.dll" />
+    <file src="D:\repos\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\fxmanifest.lua" target="content\fxmanifest.lua" />
+    <file src="D:\repos\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\fxmanifest.lua" target="contentFiles\any\net452\fxmanifest.lua" />
+    <file src="D:\repos\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\index.js" target="content\index.js" />
+    <file src="D:\repos\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\index.js" target="contentFiles\any\net452\index.js" />
+    <file src="D:\repos\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\server.lua" target="content\server.lua" />
+    <file src="D:\repos\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\server.lua" target="contentFiles\any\net452\server.lua" />
+  </files>
+</package>

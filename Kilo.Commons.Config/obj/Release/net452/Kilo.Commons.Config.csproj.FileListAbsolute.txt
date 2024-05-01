@@ -1,0 +1,14 @@
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.csproj.AssemblyReference.cache
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.AssemblyInfoInputs.cache
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.AssemblyInfo.cs
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.csproj.CoreCompileInputs.cache
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Release\net452\Kilo.Commons.Config.net.dll
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Release\net452\Kilo.Commons.Config.net.pdb
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Release\net452\CitizenFX.Core.Client.dll
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Release\net452\FivePD.net.dll
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Release\net452\MenuAPI.dll
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\bin\Release\net452\Newtonsoft.Json.dll
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.csproj.CopyComplete
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.net.dll
+D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\obj\Release\net452\Kilo.Commons.Config.net.pdb

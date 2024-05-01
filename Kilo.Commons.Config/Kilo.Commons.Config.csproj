@@ -7,8 +7,11 @@
         <LangVersion>latest</LangVersion>
         <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
         <AssemblyName>$(MSBuildProjectName).net</AssemblyName>
-        <Platforms>AnyCPU;x64</Platforms>
-        <RootNamespace>Kilo.Commons.Config</RootNamespace>
+        <PackageId>Kilo.Commons.Config.net</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>DevKilo</Authors>
+        <PackageTags>FivePD;Config;Newtonsoft.Json;DevKilo</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
@@ -27,6 +30,16 @@
       <Content Include="..\..\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\server.lua">
         <Link>Resource\Kilo.Commons\server.lua</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Config.cs">
+        <Link>Config.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\PublicC#\Example.cs">
+        <Link>Example.cs</Link>
+      </Compile>
+      <Compile Remove="Utils.cs" />
     </ItemGroup>
 
 </Project>
