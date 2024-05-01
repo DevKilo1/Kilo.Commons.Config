@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net452</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <LangVersion>latest</LangVersion>
+        <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
+        <AssemblyName>$(MSBuildProjectName).net</AssemblyName>
+        <Platforms>AnyCPU;x64</Platforms>
+        <RootNamespace>Kilo.Commons.Config</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FivePD.net" Version="1.3.0" />
+        <PackageReference Include="MenuAPI.FiveM" Version="3.2.2" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\AddonType.cs">
+        <Link>AddonType.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\Config.cs">
+        <Link>Config.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Kilo.Commons\Kilo.Commons\KVPType.cs">
+        <Link>KVPType.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\..\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\fxmanifest.lua">
+        <Link>Resource\Kilo.Commons\fxmanifest.lua</Link>
+      </Content>
+      <Content Include="..\..\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\index.js">
+        <Link>Resource\Kilo.Commons\index.js</Link>
+      </Content>
+      <Content Include="..\..\Kilo.Commons\Kilo.Commons\Resource\Kilo.Commons\server.lua">
+        <Link>Resource\Kilo.Commons\server.lua</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
