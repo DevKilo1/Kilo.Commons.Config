@@ -1,7 +1,7 @@
 # Kilo.Commons.Config
 
 **How to use:**
-Refer to Example.cs! Run the provided "Fetch Kilo's Utils" script to fetch my Utils.cs (With Rider). If you don't have Rider, just go [here](https://github.com/DevKilo1/Kilo.Commons.Utils) to grab the Utils.cs and add that to your project.
+Refer to Example.cs! Copy and paste the Config.cs into your project!
 
 In the future, you can expect a public method inside the Config object named "Set".
 
