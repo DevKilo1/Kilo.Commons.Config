@@ -107,18 +107,3 @@ public class script : BaseScript
         Config.eventHandlers = EventHandlers;
     }
 }
-
-public class ConfigMenu : BaseScript
-{
-    public static Menu _menu = new Menu("Config Editor", "By DevKilo");
-
-    public ConfigMenu()
-    {
-        Startup();
-    }
-
-    private void Startup()
-    {
-        // This is being worked on!   
-    }
-}
