@@ -7,7 +7,6 @@ using System.Reflection;
 using System.Threading.Tasks;
 using CitizenFX.Core;
 using CitizenFX.Core.Native;
-using MenuAPI;
 using Newtonsoft.Json.Linq;
 
 namespace Kilo.Commons.Config;
