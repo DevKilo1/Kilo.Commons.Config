@@ -69,8 +69,9 @@ public class Config : JObject
                 await BaseScript.Delay(5000);
                 Debug.WriteLine(
                     $"^6Couldn't find config. ^5Expected path: {configPath} \n^2Returning to default config.");
-                config = JObject.Parse(encodedJSONString);
+                
             });
+            config = JObject.Parse(encodedJSONString);
             action();
         }
 
