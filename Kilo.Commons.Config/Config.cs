@@ -71,8 +71,8 @@ public class Config : JObject
                     $"^6Couldn't find config. ^5Expected path: {configPath} | Try adding '{configPath.Replace("fivepd/","")}' to the files in your FivePD fxmanifest.lua \n^2Returning to default config.");
                 
             });
-            config = JObject.Parse(encodedJSONString);
             action();
+            return JObject.Parse(encodedJSONString); 
         }
 
         return config;
