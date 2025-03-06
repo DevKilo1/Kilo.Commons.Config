@@ -51,7 +51,7 @@ public class Config : JObject
         Config.configFileName = fileName;
         try
         {
-            string data = API.LoadResourceFile(resourceName, $"/{addonType.ToString()}/{sourceName}/{fileName}");
+            string data = API.LoadResourceFile(resourceName, $"/{addonType.ToString()}/{sourceName}/{fileName}".Trim().Replace("//", ""));
             if (data == null)
             {
                 Debug.WriteLine("Data is null!");
