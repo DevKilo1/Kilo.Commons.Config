@@ -86,7 +86,7 @@ public class Config : JObject
         CustomFolderName = SourceName;
         if (customFolderName != "")
             CustomFolderName = customFolderName;
-        configPath = $"{resourceName}/{type}/{CustomFolderName}/{fileName}";
+        configPath = $"{resourceName}/{type}/{CustomFolderName}/{fileName}".Trim().Replace("//", "");
         kvpPrefix = CustomFolderName + ".KiloCommons_";
 
         configString = encodedConfigJSON;

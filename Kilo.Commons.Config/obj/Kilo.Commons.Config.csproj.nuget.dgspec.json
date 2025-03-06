@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj": {}
+    "D:\\repos\\Phil-AngryCustomerFivePD\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj": {
+    "D:\\repos\\Phil-AngryCustomerFivePD\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj",
+        "projectUniqueName": "D:\\repos\\Phil-AngryCustomerFivePD\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj",
         "projectName": "Kilo.Commons.Config.net",
-        "projectPath": "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj",
+        "projectPath": "D:\\repos\\Phil-AngryCustomerFivePD\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj",
         "packagesPath": "C:\\Users\\lukni\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\obj\\",
+        "outputPath": "D:\\repos\\Phil-AngryCustomerFivePD\\Kilo.Commons.Config\\Kilo.Commons.Config\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lukni\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,7 +20,6 @@
           "net452"
         ],
         "sources": {
-          "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\bin\\Debug\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net452": {
@@ -52,7 +57,7 @@
               "version": "[13.0.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\lukni\\.dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

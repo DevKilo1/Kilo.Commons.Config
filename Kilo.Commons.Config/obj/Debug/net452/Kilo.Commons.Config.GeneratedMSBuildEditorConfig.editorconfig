@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = Kilo.Commons.Config
-build_property.ProjectDir = D:\repos\Kilo.Commons.Config\Kilo.Commons.Config\
+build_property.ProjectDir = D:\repos\Phil-AngryCustomerFivePD\Kilo.Commons.Config\Kilo.Commons.Config\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

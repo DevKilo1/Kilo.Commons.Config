@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+jcuWYhbEA+GX0WuUeMiGUN/FE6dLmsRf3bddz6yjyy3k3Szw6qDXlPuOKrsX5ds0ZvwhMgn5PKtrOgLmWEdsQ==",
+  "dgSpecHash": "O6f8x2uPA6s=",
   "success": true,
-  "projectFilePath": "D:\\repos\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj",
+  "projectFilePath": "D:\\repos\\Phil-AngryCustomerFivePD\\Kilo.Commons.Config\\Kilo.Commons.Config\\Kilo.Commons.Config.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukni\\.nuget\\packages\\citizenfx.core.client\\1.0.3324\\citizenfx.core.client.1.0.3324.nupkg.sha512",
     "C:\\Users\\lukni\\.nuget\\packages\\fivepd.net\\1.3.0\\fivepd.net.1.3.0.nupkg.sha512",
